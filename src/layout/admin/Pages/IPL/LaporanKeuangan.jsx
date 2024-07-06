@@ -315,7 +315,9 @@ export default function LaporanKeuangan() {
                 </Table.Summary.Row>
               </>
             )}
+            
             bordered
+            pagination={false}
             dataSource={filteredData}
             loading={loading}
           >
